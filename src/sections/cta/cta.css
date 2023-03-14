@@ -1,0 +1,121 @@
+.cta-bg {
+    background: linear-gradient(0deg, rgba(37, 43, 66, 0.4), rgba(37, 43, 66, 0.4)), url('../../assets/footer-background.png');
+    background-size: cover;
+    height: 516px;
+}
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cta .cta-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 6.2rem;
+}
+.cta-content h2 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    color: var(--light-color);
+    font-family: var(--primary-font);
+}
+.cta-bg .cta-content h4 {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--light-color);
+    padding-top: 1rem;
+}
+.cta .cta-btn button {
+    padding: 15px 36px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--light-color);
+    border: none;
+    margin: 4rem 1.5rem 0 0;
+}
+
+.cta-btn #playstore {
+    background: var(--primary-color);
+}
+
+.cta .cta-btn #appstore {
+    background: none;
+    border: #ffffff solid 1px;
+    outline: none;
+    color: var(--light-color);
+}
+
+/* large devices (2000px and up) */
+
+@media screen and (min-width: 1700px) {
+    .container {
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+    .cta-bg{
+        height: 760px;
+        background-size: cover;
+    }
+    .cta .cta-content{
+        padding-top: 12rem;
+    }
+    .cta-content h2 {
+        font-size: 6rem;
+    }
+    .cta-bg .cta-content h4 {
+        padding-top: 4rem;
+        font-size: 2rem;
+    }
+    .cta .cta-btn button {
+        padding: 30px 60px;
+        font-size: 2rem;
+        margin: 6rem 3rem 0 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cta-content h2{
+        font-size: 2rem;
+    }
+    .cta-content h4 {
+        display: flex;
+        padding: 0 4rem;
+        line-height: 2rem;
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .cta-bg  {
+    background: #252B42;    
+    }
+    .cta-content h2 {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding: 1rem 2rem;
+        /* letter-spacing: 0.2px; */
+    }
+    .cta .cta-content h4 {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        padding: 1rem 4rem;
+        color: #BDBDBD;
+    }
+    .cta .cta-btn button{
+        padding: 10px 26px;
+        font-size: .7rem;
+        border: none;
+        margin: 2rem 1rem 0 0;
+    }
+
+}

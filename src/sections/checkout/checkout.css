@@ -1,0 +1,121 @@
+.checkout {
+    margin-top: -150px ;
+}
+
+.checkout .checkout-text {
+    position: relative;
+    top: 30%;
+}
+
+.checkout.text-head {
+    margin: 100px 0 0 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.checkout .checkout-text h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    line-height: 50px;
+}
+
+
+.checkout .checkout-text h3 {
+    margin: 30px auto;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #FA4A0C;
+}
+
+
+.checkout .checkout-text h4 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #737373;
+    padding-top: 1.5rem;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+/* large devices (2000px and up) */
+
+@media screen and (min-width: 1700px) {
+    .container {
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+    .checkout .text-head {
+        font-size: 6rem;
+    }
+    .checkout .checkout-text h3 {
+        font-size: 2.6rem;
+        padding: 0 0 3rem 0;
+    }
+    .checkout .checkout-text h2 {
+        font-size: 4rem;
+        line-height: 78px;
+        letter-spacing: 2.5px;
+    }
+    .checkout .checkout-text h4 {
+        font-size: 2.6rem;
+        padding-top: 3rem;
+        letter-spacing: .4rem;
+        line-height: 3.5rem;
+    }
+    .checkout-image img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .checkout .col1 {
+        order: 2;
+    }
+    .checkout-image {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        margin-top: 8rem;
+    }
+    .checkout .checkout-text {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    .checkout .checkout-text br{
+        display: none;
+    }
+    .checkout .checkout-text h2{
+        line-height: 40px;
+    }
+    .checkout .checkout-text h4{
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .checkout .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0;
+    }
+
+    .checkout .checkout-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    .checkout-image {
+        margin-top: 1rem;
+        /* font-size: 2rem; */
+        /* margin: 0; */
+    }
+}
+    

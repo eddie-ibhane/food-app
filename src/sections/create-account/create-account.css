@@ -1,0 +1,161 @@
+.create_account {
+    margin-top: 35rem;
+}
+hr {
+    width: 80%;
+    border: 2px solid #E4E4E4;
+}
+.create_account .text-head {
+    margin: 100px 0 0 0;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 54px;
+}
+.create_account .create_account-text {
+    position: relative;
+    margin: 0px;
+    top: 30%;
+}
+.create_account .create_account-text h3 {
+    font-family: var(--primary-font);
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+.create_account .create_account-text h2 {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    line-height: 50px;
+}
+.create_account .create_account-text h4 {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding-top: 2rem;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+}
+
+/* large devices (2000px and up) */
+
+@media screen and (min-width: 1700px) {
+    .create_account {
+        margin-top: 95rem;
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 2000px;
+    }
+    .create_account .text-head {
+        font-size: 6rem;
+    }
+    .create_account .create_account-text h3 {
+        font-size: 2.6rem;
+    }
+    .create_account .create_account-text h2 {
+        font-size: 4rem;
+        line-height: 78px;
+        letter-spacing: 2.5px;
+    }
+    .create_account .create_account-text h4 {
+        font-size: 2.6rem;
+        padding-top: 3rem;
+        letter-spacing: .4rem;
+        line-height: 3.5rem;
+    }
+    .create_account .image-wrapper img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .create_account .create_account-text h2 {
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+    .create_account .create_account-text h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .create_account {
+        position: relative;
+        padding: 0 10rem;
+    }
+    .create_account .text-head {
+        font-family: var(--primary-font);
+        font-size: 34px;
+        margin-top: -60px;
+    }
+    .create_account hr {
+        position: absolute;
+        top: 5%;
+        left: 8%;
+    }
+    .create_account .item1 {
+        order: 2;
+    }
+    .create_account .create_account-text {
+        text-align: center;
+    }
+    .create_account .create_account-text br {
+        display: none;
+    }
+    .create_account .image-wrapper {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .create_account {
+        padding: 0 4rem;
+    }
+}
+
+/* extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .create_account {
+        padding: 0 1rem;
+    }
+    .create_account .text-head h2 {
+        font-size: 1px;
+    }
+    .create_account hr {
+        top: 4%;
+        left: 8%;
+    }
+    .create_account .image-wrapper {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        margin-top: 10rem;
+    }
+    .create_account .text-head {
+        margin-top: 0px;
+        font-size: 1.5rem;
+    }
+    .create_account .create_account-text h2 {
+        font-size: 2rem;
+    }
+    .create_account .create_account-text h3 {
+        font-size: 1.4rem;
+    }
+    .create_account .create_account-text h4 {
+        font-size: 1.2rem;
+    }
+}
